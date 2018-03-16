@@ -8,4 +8,4 @@ FROM wf wt
 		ON wt.status=tst.code
 	LEFT JOIN ca_contact tass
 		ON wt.assignee=tass.contact_uuid
-WHERE wt.persid = 'wf:407398'
+WHERE wt.persid = 'wf:407398' -- Persistent ID da tarefa
